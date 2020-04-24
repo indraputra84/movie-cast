@@ -3,7 +3,7 @@ var pages = 1;
 function searchMovie() {
 	$('#movie-list').html('');
 	$.ajax({
-		url : 'http://omdbapi.com',
+		url : 'https://omdbapi.com',
 		type : 'get',
 		dataType : 'JSON',
 		data : {
@@ -62,7 +62,7 @@ window.onload = function exampleFunction() {
 
 
 	$.ajax({
-		url : 'http://omdbapi.com',
+		url : 'https://omdbapi.com',
 		type : 'get',
 		dataType : 'JSON',
 		data : {
